@@ -16,9 +16,9 @@ function compute()
       return false
 
   }
-  document.getElementById("result").innerHTML=" <br>If you deposite <mark>"+String(principal)
+  document.getElementById("result").innerHTML=" <br/>If you deposit <mark>"+String(principal)
   +"</mark> <br\> at an interest rate of <mark>"+ String(rate) +"</mark> <br\> You will receive an amount of <mark>"+ String(interest)+ 
-  "</mark> <br\> in the year <mark>"+String(year)+"</mark>"
+  "</mark> <br\> in the year <mark>"+String(year)+"</mark><br/>"
 }
 
 function updateRate()

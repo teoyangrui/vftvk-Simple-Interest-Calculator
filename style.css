@@ -1,11 +1,16 @@
 body {background-color:black;font-family:arial;color:white}
+
 h1{color:grey;font-family:verdana}
+
 .maindiv{background-color:white; 
+font-family:arial;
 color:black;
-width:300px;
+width:475px;
+height:200x;
 padding:20px;
 border-radius:25px;
 margin: auto;
-vertical-align: middle;}
+line-height: 200%;
+}
 
 
