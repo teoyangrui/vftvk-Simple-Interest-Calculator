@@ -6,7 +6,7 @@ function compute()
   var interest = principal * years * rate /100
   var year= new Date().getFullYear()+parseInt(years);
   console.log(year)
-  if(year <2022) {
+  if((year <2022)||(Number.isNaN(year))) {
       alert("Please enter a proper year")
       return false
   }
